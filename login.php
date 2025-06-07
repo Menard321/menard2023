@@ -1,5 +1,5 @@
 <?php
-require 'backend/login_handling.php';
+require 'backend/connect.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
