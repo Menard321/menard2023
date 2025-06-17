@@ -50,8 +50,8 @@ require 'backend/login_handling.php';
               <label><i class="fas fa-user"></i> Username</label>
               <input
                 type="text"
-                name="username"
-                placeholder="Enter your username"
+                name="fName"
+                placeholder="Enter your fullName"
                 required
               />
             </div>
@@ -76,16 +76,5 @@ require 'backend/login_handling.php';
       </div>
     </section>
 
-    <script>
-      document.querySelectorAll(".tab").forEach((tab) => {
-        tab.addEventListener("click", function () {
-          document
-            .querySelectorAll(".tab")
-            .forEach((t) => t.classList.remove("active"));
-          this.classList.add("active");
-          document.getElementById("roleInput").value = this.dataset.role;
-        });
-      });
-    </script>
   </body>
 </html>
